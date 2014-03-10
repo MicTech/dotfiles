@@ -2,7 +2,7 @@
 	name = Michal Tehnik
 	email = michal.tehnik@mictech.cz
 [core]
-	excludesfile = /Users/MicTech/.gitignore_global
+	excludesfile = ~/DropBox/Config/dotfiles/.gitignore_global
 	editor = subl -n -w
 [merge]
     tool = p4merge
