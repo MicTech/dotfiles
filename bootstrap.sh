@@ -26,6 +26,9 @@ binaries=(
   python
   node
   git
+  wget
+  docker
+  boot2docker
 )
 
 echo "installing binaries..."
@@ -62,6 +65,7 @@ apps=(
   p4merge
   gopro-studio
   java7
+  sequel-pro
 )
 
 # Install apps to /Applications
