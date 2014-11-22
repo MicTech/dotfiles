@@ -52,7 +52,6 @@ apps=(
   skype
   intellij-idea
   clipmenu
-  mucommander
   evernote
   skitch
   onepassword
@@ -73,10 +72,7 @@ apps=(
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
-# Setup Git
-git config --global user.name "Michal Tehnik"
-git config --global user.email michal.tehnik@mictech.cz
-
+# Setup GitHub
 GITHUB_KEY=~/.ssh/github_rsa
 SSH_CONFIG=~/.ssh/config
 
@@ -87,3 +83,10 @@ if [ ! -f $GITHUB_KEY ]; then
   echo "IdentityFile $GITHUB_KEY" >> $SSH_CONFIG 
   echo "\n" >> $SSH_CONFIG
 fi
+
+# dotfiles
+DOTFILES_DIR=~/dotfiles
+git clone https://github.com/MicTech/dotfiles.git $DOTFILES_DIR
+
+# dotfiles - Git
+ln -s $DOTFILES_DIR/.gitconfig ~/.gitconfig
