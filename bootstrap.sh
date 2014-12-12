@@ -65,6 +65,7 @@ apps=(
   gopro-studio
   java7
   sequel-pro
+  asepsis
 )
 
 # Install apps to /Applications
