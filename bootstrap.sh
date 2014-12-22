@@ -66,6 +66,7 @@ apps=(
   java7
   sequel-pro
   asepsis
+  mplayerx
 )
 
 # Install apps to /Applications
