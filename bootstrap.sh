@@ -67,6 +67,7 @@ apps=(
   sequel-pro
   asepsis
   mplayerx
+  igetter
 )
 
 # Install apps to /Applications
