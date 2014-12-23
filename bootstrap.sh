@@ -68,6 +68,7 @@ apps=(
   asepsis
   mplayerx
   igetter
+  istat-menus
 )
 
 # Install apps to /Applications
