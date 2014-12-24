@@ -69,6 +69,7 @@ apps=(
   mplayerx
   igetter
   istat-menus
+  eye-fi
 )
 
 # Install apps to /Applications
