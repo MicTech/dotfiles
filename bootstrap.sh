@@ -71,6 +71,9 @@ apps=(
   eye-fi
 )
 
+# Link apps to Alfred
+brew cask alfred link
+
 # Install apps to /Applications
 # Default is: /Users/$user/Applications
 echo "installing apps..."
