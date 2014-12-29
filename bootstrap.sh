@@ -57,7 +57,6 @@ apps=(
   onepassword
   viscosity
   hipchat
-  fitbit-connect
   bartender
   kitematic
   totalfinder
