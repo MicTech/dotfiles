@@ -69,6 +69,7 @@ apps=(
   igetter
   istat-menus
   eye-fi
+  android-file-transfer
 )
 
 # Link apps to Alfred
