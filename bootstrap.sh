@@ -101,3 +101,8 @@ ln -s $DOTFILES_DIR/.gitconfig ~/.gitconfig
 
 # iTerm2
 wget http://www.iterm2.com/hostedcolors/Solarized%20Dark.itermcolors -P ~/dotfiles/.local/iterm2
+
+# Mac OS X
+
+## show hidden files in Finder
+defaults write com.apple.finder AppleShowAllFiles YES
