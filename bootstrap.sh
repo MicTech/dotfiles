@@ -29,6 +29,7 @@ binaries=(
   wget
   docker
   boot2docker
+  fish
 )
 
 echo "installing binaries..."
@@ -98,6 +99,13 @@ git clone https://github.com/MicTech/dotfiles.git $DOTFILES_DIR
 
 # dotfiles - Git
 ln -s $DOTFILES_DIR/.gitconfig ~/.gitconfig
+
+# fish
+## add fish to list of shells
+sudo bash -c "echo \"/usr/local/bin/fish\" >> /etc/shells"
+
+## change default shell
+chsh -s /usr/local/bin/fish
 
 # iTerm2
 wget http://www.iterm2.com/hostedcolors/Solarized%20Dark.itermcolors -P ~/dotfiles/.local/iterm2
