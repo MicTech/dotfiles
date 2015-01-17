@@ -81,6 +81,9 @@ brew cask alfred link
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
+# oh-my-fish
+curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
+
 # Setup GitHub
 GITHUB_KEY=~/.ssh/github_rsa
 SSH_CONFIG=~/.ssh/config
