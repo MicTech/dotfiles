@@ -59,7 +59,6 @@ apps=(
   viscosity
   hipchat
   bartender
-  kitematic
   totalfinder
   p4merge
   gopro-studio
