@@ -30,6 +30,7 @@ binaries=(
   docker
   boot2docker
   fish
+  offline-imap
 )
 
 echo "installing binaries..."
