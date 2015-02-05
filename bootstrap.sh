@@ -1,3 +1,6 @@
+# Load configuration
+. my.sh
+
 # Check for Homebrew,
 # Install if we don't have it
 if test ! $(which brew); then
@@ -89,7 +92,7 @@ GITHUB_KEY=~/.ssh/github_rsa
 SSH_CONFIG=~/.ssh/config
 
 if [ ! -f $GITHUB_KEY ]; then
-  ssh-keygen -t rsa -C "michal.tehnik@mictech.cz" -N '' -f $GITHUB_KEY
+  ssh-keygen -t rsa -C "$EMAIL" -N '' -f $GITHUB_KEY
   echo "Host GitHub github.com" >> $SSH_CONFIG
   echo "Hostname github.com" >> $SSH_CONFIG
   echo "IdentityFile $GITHUB_KEY" >> $SSH_CONFIG 
@@ -97,7 +100,6 @@ if [ ! -f $GITHUB_KEY ]; then
 fi
 
 # dotfiles
-DOTFILES_DIR=~/dotfiles
 git clone https://github.com/MicTech/dotfiles.git $DOTFILES_DIR
 
 # dotfiles - Git
