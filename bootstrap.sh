@@ -61,7 +61,6 @@ apps=(
   skitch
   onepassword
   viscosity
-  hipchat
   bartender
   totalfinder
   p4merge
