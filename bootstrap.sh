@@ -34,6 +34,7 @@ binaries=(
   boot2docker
   fish
   offline-imap
+  jmeter
 )
 
 echo "installing binaries..."
