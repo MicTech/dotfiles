@@ -35,6 +35,7 @@ binaries=(
   fish
   offline-imap
   jmeter
+  microsoft-office
 )
 
 echo "installing binaries..."
