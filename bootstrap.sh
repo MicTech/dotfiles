@@ -35,7 +35,6 @@ binaries=(
   fish
   offline-imap
   jmeter
-  microsoft-office
 )
 
 echo "installing binaries..."
@@ -75,6 +74,8 @@ apps=(
   istat-menus
   eye-fi
   android-file-transfer
+  microsoft-office
+  yed
 )
 
 # Link apps to Alfred
