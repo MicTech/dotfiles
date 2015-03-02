@@ -35,6 +35,7 @@ binaries=(
   fish
   offline-imap
   jmeter
+  r
 )
 
 echo "installing binaries..."
