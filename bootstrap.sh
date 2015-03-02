@@ -76,6 +76,7 @@ apps=(
   android-file-transfer
   microsoft-office
   yed
+  rstudio
 )
 
 # Link apps to Alfred
