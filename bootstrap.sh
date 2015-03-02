@@ -54,7 +54,6 @@ apps=(
   sublime-text3
   atom
   flux
-  sketch
   skype
   intellij-idea
   clipmenu
