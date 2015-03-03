@@ -36,6 +36,7 @@ binaries=(
   offline-imap
   jmeter
   r
+  neo4j
 )
 
 echo "installing binaries..."
