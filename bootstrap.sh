@@ -92,6 +92,9 @@ brew cask alfred link
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
 
+# boto - https://github.com/boto/boto
+pip install boto
+
 # oh-my-fish
 curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
 
