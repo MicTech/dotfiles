@@ -46,6 +46,7 @@ brew cleanup
 
 brew tap homebrew/binary
 brew install packer
+brew install awscli
 
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
