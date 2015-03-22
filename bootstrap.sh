@@ -82,6 +82,7 @@ apps=(
   microsoft-office
   yed
   rstudio
+  adobe-reader
 )
 
 # Link apps to Alfred
