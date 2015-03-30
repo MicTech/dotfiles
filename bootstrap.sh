@@ -83,6 +83,7 @@ apps=(
   yed
   rstudio
   adobe-reader
+  slack
 )
 
 # Link apps to Alfred
