@@ -104,6 +104,8 @@ curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fis
 GITHUB_KEY=~/.ssh/github_rsa
 SSH_CONFIG=~/.ssh/config
 
+echo "StrictHostKeyChecking no" >> $SSH_CONFIG
+
 if [ ! -f $GITHUB_KEY ]; then
   ssh-keygen -t rsa -C "$EMAIL" -N '' -f $GITHUB_KEY
   echo "Host GitHub github.com" >> $SSH_CONFIG
