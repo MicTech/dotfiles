@@ -18,3 +18,5 @@ set -x JAVA_HOME (/usr/libexec/java_home)
 . $fish_path/oh-my-fish.fish
 
 source /Users/MicTech/.iterm2_shell_integration.fish
+
+alias ls "ls -ls"
