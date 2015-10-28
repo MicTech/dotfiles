@@ -16,3 +16,5 @@ set -x JAVA_HOME (/usr/libexec/java_home)
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
+
+source /Users/MicTech/.iterm2_shell_integration.fish
