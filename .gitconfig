@@ -19,7 +19,7 @@
 [color]
 	ui = true
 [push]
-	default = tracking
+	default = current
 [branch]
 	autosetuprebase = always
 [difftool "sourcetree"]
