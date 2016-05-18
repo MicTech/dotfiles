@@ -30,23 +30,13 @@ binaries=(
   node
   git
   wget
-  docker
-  boot2docker
   fish
-  offline-imap
-  jmeter
-  r
-  neo4j
 )
 
 echo "installing binaries..."
 brew install ${binaries[@]}
 
 brew cleanup
-
-brew tap homebrew/binary
-brew install packer
-brew install awscli
 
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
@@ -78,9 +68,6 @@ brew cask alfred link
 # Default is: /Users/$user/Applications
 echo "installing apps..."
 brew cask install --appdir="/Applications" ${apps[@]}
-
-# boto - https://github.com/boto/boto
-pip install boto
 
 # oh-my-fish
 curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
