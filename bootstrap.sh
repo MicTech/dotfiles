@@ -61,28 +61,13 @@ apps=(
   atom
   flux
   skype
-  intellij-idea
   clipmenu
-  evernote
-  skitch
   onepassword
   viscosity
   bartender
-  totalfinder
   p4merge
-  gopro-studio
-  java7
-  sequel-pro
-  asepsis
-  mplayerx
-  igetter
   istat-menus
-  eye-fi
   android-file-transfer
-  microsoft-office
-  yed
-  rstudio
-  adobe-reader
   slack
 )
 
