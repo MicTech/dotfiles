@@ -6,6 +6,8 @@
 	<true/>
 	<key>AllowClipboardAccess</key>
 	<false/>
+	<key>AlternateMouseScroll</key>
+	<true/>
 	<key>AnimateDimming</key>
 	<false/>
 	<key>AppleAntiAliasingThreshold</key>
@@ -1090,7 +1092,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>C948E439-E39C-490D-97B6-D6E8AAFB342C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>485164258.77402598</real>
+	<real>485352915.81547201</real>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
@@ -1106,6 +1108,8 @@
 		<string>000</string>
 		<string>0000</string>
 		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -1179,7 +1183,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-05-17T07:50:58Z</date>
+	<date>2016-05-19T07:51:09Z</date>
 	<key>SavePasteHistory</key>
 	<true/>
 	<key>Show Toolbelt</key>
