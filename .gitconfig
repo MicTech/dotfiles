@@ -18,7 +18,7 @@
 	keepBackup = false
 	tool = p4merge
 [mergetool "p4merge"]
-	cmd = /opt/homebrew-cask/Caskroom/p4merge/2015.2-1312139/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$LOCAL\""  "\"$PWD/$REMOTE\"" "\"$PWD/$MERGED\"" 
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$PWD/$BASE\"" "\"$PWD/$LOCAL\""  "\"$PWD/$REMOTE\"" "\"$PWD/$MERGED\"" 
 	keepTemporaries = false
         trustExitCode = false
         keepBackup = false
@@ -27,4 +27,6 @@
 [difftool]
 	prompt = false
 [difftool "p4merge"]
-	cmd = /opt/homebrew-cask/Caskroom/p4merge/2015.2-1312139/p4merge.app/Contents/Resources/launchp4merge "\"$LOCAL\"" "\"$REMOTE\""
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "\"$LOCAL\"" "\"$REMOTE\""
+[alias]
+	atl = !git add . && git commit --amend --no-edit
